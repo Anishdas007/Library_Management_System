@@ -1,6 +1,3 @@
-Here is the complete content you can copy and paste directly into your `README.md` file:
-
-```markdown
 # 📚 Library Management System
 
 A **Java-based** Library Management System designed to manage books, members, lending operations, and overdue tracking with real-time fine calculations.

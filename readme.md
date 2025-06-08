@@ -1,4 +1,3 @@
-Here is the complete content you can copy and paste directly into your `README.md` file:
 
 ```markdown
 # 📚 Library Management System

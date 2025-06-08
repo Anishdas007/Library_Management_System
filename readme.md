@@ -82,8 +82,6 @@ You should see sample demo scenarios for adding books, issuing, returning, and f
 ---
 
 ## 📌 Notes
-
-- All amounts are handled in **Indian Rupees (₹)**
 - Overdue fine rate is **₹10/day**
 - Thread-based monitoring for overdue books is implemented in `OverdueMonitor.java`
 - Data is stored in-memory (no database)

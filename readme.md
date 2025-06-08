@@ -1,6 +1,3 @@
-Here is the complete content you can copy and paste directly into your `README.md` file:
-
-```markdown
 # 📚 Library Management System
 
 A **Java-based** Library Management System designed to manage books, members, lending operations, and overdue tracking with real-time fine calculations.
@@ -43,7 +40,6 @@ A **Java-based** Library Management System designed to manage books, members, le
 ## 📂 File Structure
 
 ```
-
 src/
 ├── Main.java                        # Entry point with demo scenarios
 ├── model/
@@ -59,10 +55,9 @@ src/
 ├── repository/
 │   └── Repository.java              # Generic in-memory data storage
 └── service/
-├── LibraryService.java          # Core library business logic
-└── OverdueMonitor.java          # Background thread for checking overdue books
-
-````
+    ├── LibraryService.java          # Core library business logic
+    └── OverdueMonitor.java          # Background thread for checking overdue books
+```
 
 ---
 
@@ -75,10 +70,9 @@ src/
 2. **Compile the source code**:
    ```bash
    javac -d . src/*.java src/*/*.java
-````
+   ```
 
 3. **Run the program**:
-
    ```bash
    java Main
    ```
@@ -89,9 +83,10 @@ You should see sample demo scenarios for adding books, issuing, returning, and f
 
 ## 📌 Notes
 
-* Overdue fine rate is **₹10/day**
-* Thread-based monitoring for overdue books is implemented in `OverdueMonitor.java`
-* Data is stored in-memory (no database)
+- All amounts are handled in **Indian Rupees (₹)**
+- Overdue fine rate is **₹10/day**
+- Thread-based monitoring for overdue books is implemented in `OverdueMonitor.java`
+- Data is stored in-memory (no database)
 
 ---
 
@@ -103,4 +98,3 @@ You should see sample demo scenarios for adding books, issuing, returning, and f
 [WARNING] Member Rahul has overdue books. Cannot issue new book until fine is paid.
 [INFO] Fine of ₹20 paid by Rahul. All dues cleared.
 ```
-

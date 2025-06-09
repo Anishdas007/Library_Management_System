@@ -1,4 +1,3 @@
-// File: src/main/java/com/library/repository/Repository.java
 package repository;
 
 import exception.LibraryException;
@@ -34,7 +33,7 @@ public class Repository<T> {
         }
         storage.remove(id);
     }
-
+//Allows filtering/searching entities using a condition.
     public List<T> search(Predicate<T> condition) {
         List<T> results = new ArrayList<>();
         for (T entity : storage.values()) {

@@ -42,8 +42,8 @@ public class Main {
 
         // Scenario 3: Wait for book to become overdue
         System.out.println("\n===== SCENARIO 3: WAITING FOR OVERDUE =====");
-        System.out.println("Waiting 65 seconds for overdue monitor to run...");
-        Thread.sleep(65000);
+        System.out.println("Waiting 6 seconds for overdue monitor to run...");
+        Thread.sleep(6000);
 
         // Scenario 4: Try to issue book to member with overdue
         System.out.println("\n===== SCENARIO 4: TRYING TO ISSUE TO MEMBER WITH OVERDUE BOOK =====");

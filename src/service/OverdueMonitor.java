@@ -8,6 +8,8 @@ import java.util.concurrent.TimeUnit;
 
 public class OverdueMonitor implements Runnable {
     private final LibraryService libraryService;
+    //A volatile flag used to safely stop the thread across multiple cores/threads.
+    //volatile ensures visibility of updates to running across threads.
     private volatile boolean running = true;
 
     public OverdueMonitor(LibraryService libraryService) {

@@ -94,11 +94,9 @@ public class LibraryService {
         return books;
     }
 
-    // Accessors for demo purposes
     public Repository<LendingRecord> getLendingRepo() {
         return lendingRepo;
     }
-
     public void shutdown() {
         System.out.println("Library service shutdown complete");
     }
